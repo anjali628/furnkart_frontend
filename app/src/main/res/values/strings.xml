@@ -11,6 +11,9 @@
     <string name="signup">Sign Up</string>
     <string name="phone">Phone</string>
     <string name="dob">Date of birth</string>
-    <string name="already">Already have an account? Sign In</string>
+    <string name="already">Already have an account?</string>
+    <string name="signin">Sign In</string>
+    <string name="default_web_client_id">893793094450-qu4aiffbqd3qn6s538uks74gneuiabuq.apps.googleusercontent.com</string>
+
 
 </resources>
