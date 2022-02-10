@@ -14,7 +14,7 @@ import com.androd.antino.furnkart_android.repository.SignUpRepository
 import kotlinx.coroutines.launch
 
 
-class SignUpViewModel(SignupRespository:SignUpRepository) : ViewModel() {
+class SignUpViewModel : ViewModel() {
 
     private val _signupResponse: MutableLiveData<PostSignUpResponse> = MutableLiveData()
     val signupResponse: LiveData<PostSignUpResponse> = _signupResponse

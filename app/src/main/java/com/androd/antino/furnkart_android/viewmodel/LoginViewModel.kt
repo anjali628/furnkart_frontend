@@ -12,7 +12,7 @@ import com.androd.antino.furnkart_android.repository.LoginRepository
 import com.androd.antino.furnkart_android.repository.SignUpRepository
 import kotlinx.coroutines.launch
 
-class LoginViewModel(LoginRepository: LoginRepository) :ViewModel() {
+class LoginViewModel:ViewModel() {
 
     private val _loginResponse:MutableLiveData<PostLoginResponse> = MutableLiveData()
     val loginResponse:LiveData<PostLoginResponse> = _loginResponse

@@ -1,9 +1,317 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CategoriesSubDetails2Activity">
+    tools:context=".CategoriesSubDetails2Activity"
+    android:background="#f2f2f2">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:id="@+id/ll1_subcategories"
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#f2f2f2"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            app:tint="@color/black"
+            >
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/avenir_black"
+            android:letterSpacing="0.02"
+            android:text="@string/living"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textAlignment="center"
+
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/avenir_std"
+            android:text="@string/filters"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            >
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+    <View
+
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_below="@id/ll1_subcategories"
+        android:layout_marginTop="10dp"
+        android:background="#e7e7e7">
+
+
+    </View>
+
+    <HorizontalScrollView
+        android:layout_marginTop="10dp"
+        android:id="@+id/scroll_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:fadeScrollbars="false"
+        android:scrollbarStyle="insideInset"
+        android:scrollbarThumbHorizontal="@drawable/scroll_horizontal"
+        android:scrollbars="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="@font/avenir_roman"
+                android:maxLines="1"
+                android:text="@string/table"
+                android:textColor="#c5c4c4"
+                android:textSize="17sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="@font/avenir_roman"
+                android:maxLines="1"
+                android:text="@string/benches"
+                android:textColor="#c5c4c4"
+                android:textSize="17sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="@font/avenir_roman"
+                android:maxLines="1"
+                android:text="@string/slipcovers"
+                android:textColor="#d0021b"
+                android:textSize="17sp"
+                >
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:fontFamily="@font/avenir_roman"
+                android:maxLines="1"
+                android:text="@string/leather_furniture"
+                android:textColor="#c5c4c4"
+                android:textSize="17sp">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+    
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scroll_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@id/scroll_horizontal"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/living1"
+                    android:layout_width="164dp"
+                    android:layout_height="274dp"
+                    android:background="@drawable/categories_bg"
+                    android:backgroundTint="#e4e4de"
+                    android:padding="30dp"
+                    android:src="@drawable/living_1">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/living1"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/avenir_roman"
+                    android:padding="15dp"
+                    android:text="$166,99"
+                    android:textColor="#000000"
+                    android:textSize="15sp">
+
+                </TextView>
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_favorite_24"
+                    android:background="#e4e4de"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignEnd="@id/living1"
+                    >
+
+                </ImageButton>
+
+            </RelativeLayout>
+
+            
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/living3"
+                    android:layout_width="164dp"
+                    android:layout_height="274dp"
+                    android:background="@drawable/categories_bg"
+                    android:backgroundTint="#E4E4DE"
+                    android:padding="30dp"
+                    android:src="@drawable/living_3">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$416,99"
+                    android:textSize="15sp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/avenir_roman"
+                    android:layout_alignBottom="@id/living3"
+                    android:padding="15dp"
+                    android:layout_centerHorizontal="true"
+                    >
+
+                </TextView>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@id/living3"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="#e4e4de"
+                    android:src="@drawable/ic_baseline_favorite_24">
+
+                </ImageButton>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+    </LinearLayout>
+
+
+
+
+
+    <View
+        android:layout_width="135dp"
+        android:layout_height="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/line">
+
+    </View>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

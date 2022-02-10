@@ -19,6 +19,12 @@
     <string name="unfinished">Unfinished Furniture</string>
     <string name="office">Office Furniture</string>
     <string name="kitchen">Kitchen &amp; dining di...</string>
+    <string name="filters">Filters</string>
+    <string name="table">TABLE</string>
+    <string name="benches">BENCHES</string>
+    <string name="slipcovers">SLIPCOVERS</string>
+    <string name="leather_furniture">LEATHER FURNITURE</string>
+
 
 
 </resources>
