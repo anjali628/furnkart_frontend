@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Furnkart_frontend">
         <activity
+            android:name=".CategoriesSubDetails2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Home_option1"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity

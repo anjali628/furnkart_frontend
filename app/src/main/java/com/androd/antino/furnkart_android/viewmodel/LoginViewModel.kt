@@ -9,6 +9,7 @@ import androidx.lifecycle.viewModelScope
 import com.androd.antino.furnkart_android.Model.PostLogin
 import com.androd.antino.furnkart_android.Model.PostLoginResponse
 import com.androd.antino.furnkart_android.repository.LoginRepository
+import com.androd.antino.furnkart_android.repository.SignUpRepository
 import kotlinx.coroutines.launch
 
 class LoginViewModel(LoginRepository: LoginRepository) :ViewModel() {
