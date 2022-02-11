@@ -24,6 +24,11 @@
     <string name="benches">BENCHES</string>
     <string name="slipcovers">SLIPCOVERS</string>
     <string name="leather_furniture">LEATHER FURNITURE</string>
+    <string name="email_signup">email123@gmail.com</string>
+    <string name="password_signup"></string>
+    <string name="phone_signup">9899989099</string>
+    <string name="dob_signup">20-11-2022</string>
+    
 
 
 

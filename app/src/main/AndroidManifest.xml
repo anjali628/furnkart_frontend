@@ -11,7 +11,7 @@
         android:theme="@style/Theme.Furnkart_frontend"
         >
         <activity
-            android:name=".CategoriesActivity"
+            android:name=".CategoriesSubDetails2Activity"
             android:exported="false"
             android:screenOrientation="portrait"/>
         <activity
@@ -28,7 +28,7 @@
             android:exported="false"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".SignUpActivity"
+            android:name=".CategoriesActivity"
             android:exported="false"
             android:screenOrientation="portrait"/>
         <activity
@@ -36,7 +36,7 @@
             android:exported="false"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".CategoriesSubDetails2Activity"
+            android:name=".SignUpActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
