@@ -29,10 +29,10 @@ class SlipcoversFragment : Fragment() {
         return view
 
 
-            initRecyclerView()
+            //initRecyclerView()
 
 
-            val dogRepository = DogRepository()
+           /* val dogRepository = DogRepository()
             dogViewModel = ViewModelProvider(this, viewModelFactory)[DogViewModel::class.java]
             dogViewModel.getDogPhotos()
             dogViewModel.dogMutableLiveData.observe(this, Observer {
@@ -56,17 +56,16 @@ class SlipcoversFragment : Fragment() {
                 setHasFixedSize(true)
                 layoutManager = GridLayoutManager(this)
                 adapter = dogAdapter
-
+*/
             }
-        }
+
     }
 
 
 
 
-}
 
 
 
 
-}
+

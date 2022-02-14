@@ -5,11 +5,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.androd.antino.furnkart_android.Model.PostLogin
-import com.androd.antino.furnkart_android.Model.PostLoginResponse
-import com.androd.antino.furnkart_android.Model.PostSignUp
-import com.androd.antino.furnkart_android.Model.PostSignUpResponse
-import com.androd.antino.furnkart_android.repository.LoginRepository
+import com.androd.antino.furnkart_android.model.PostSignUp
+import com.androd.antino.furnkart_android.model.PostSignUpResponse
 import com.androd.antino.furnkart_android.repository.SignUpRepository
 import kotlinx.coroutines.launch
 

@@ -1,4 +1,4 @@
-package com.androd.antino.furnkart_android.Model
+package com.androd.antino.furnkart_android.model
 
 data class SlipCoversModel (
 
