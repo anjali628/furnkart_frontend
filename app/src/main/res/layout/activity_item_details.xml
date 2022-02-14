@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    tools:context=".ItemDeatailsActivity">
+
+    <ImageButton
+        android:id="@+id/ib_item_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#f2f2f2"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+
+        >
+
+    </ImageButton>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ib_item_details">
+
+        <RelativeLayout
+            android:id="@+id/rl1_item_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </androidx.viewpager.widget.ViewPager>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_above="@id/ll_item_details"
+                android:background="#e7e7e7"
+
+                >
+
+            </View>
+
+
+            <LinearLayout
+                android:id="@+id/ll_item_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/avenir_std"
+                    android:letterSpacing="-0.02"
+                    android:text="@string/corner"
+                    android:textColor="@color/black"
+                    android:textSize="17sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/avenir_black"
+                    android:letterSpacing="0.02"
+                    android:lineSpacingExtra="0sp"
+                    android:text="@string/cobb"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="22sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/avenir_std"
+                    android:letterSpacing="0.01"
+                    android:lineSpacingExtra="4sp"
+                    android:text="@string/dollar"
+                    android:textAllCaps="true"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:translationY="-1.97sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/avenir_std"
+                    android:letterSpacing="-0.02"
+                    android:lineSpacingExtra="2dp"
+                    android:text="@string/with_open"
+                    android:textAllCaps="false"
+                    android:textColor="#66000000"
+                    android:textSize="15sp"
+                    android:translationY="-1.17sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/avenir_std"
+                    android:letterSpacing="-0.02"
+                    android:lineSpacingExtra="2dp"
+                    android:text="@string/perfect"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:translationY="-1.17sp">
+
+                </TextView>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_item_details"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:elevation="11dp"
+        app:cardBackgroundColor="@color/white"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+
+
+            >
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:background="@drawable/btn1_bg_item_details"
+                android:src="@drawable/ic_baseline_favorite_border_24_red"
+
+                >
+
+
+            </ImageButton>
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn2_bg_item_details"
+                android:fontFamily="@font/avenir_roman"
+                android:letterSpacing="0.02"
+                android:text="@string/add_to_cart"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="17sp">
+
+            </Button>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
+
+

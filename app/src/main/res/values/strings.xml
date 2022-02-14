@@ -28,8 +28,15 @@
     <string name="password_signup"></string>
     <string name="phone_signup">9899989099</string>
     <string name="dob_signup">20-11-2022</string>
-    
+    <string name="corner">Corner sofa, 2-seat</string>
+    <string name="cobb">Cobbs convertible</string>
+    <string name="dollar">$1,650</string>
+    <string name="with_open">With open end, Farsta dark brown</string>
+    <string name="perfect">Perfect for unexpected overnight guests, or just a handy spot for a nap, futons are a great option for adding a touch of seating that can easily be...</string>
+    <string name="add_to_cart">Add to cart</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

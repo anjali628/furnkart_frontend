@@ -12,7 +12,20 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
 
+    </style>
+
+
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/avenir_roman</item>
+        <item name="android:textSize">17sp</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+    <style name="Tab" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/tab_text</item>
     </style>
 
 </resources>

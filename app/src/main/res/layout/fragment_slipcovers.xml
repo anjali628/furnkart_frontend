@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SlipcoversFragment"
+    android:background="#f2f2f2">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_slipcovers"
+        tools:listitem="@layout/categories_sub_details2_each_item"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+
+</RelativeLayout>
