@@ -1,13 +1,12 @@
-package com.androd.antino.furnkart_android
+package com.androd.antino.furnkart_android.categoriesSubDetails
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageButton
 import android.widget.ImageView
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.androd.antino.furnkart_android.R
 import com.androd.antino.furnkart_android.model.SlipCoversModel
 
 class SlipCoversFragmentAdapter(var context: Context) :
@@ -39,6 +38,7 @@ class SlipCoversFragmentAdapter(var context: Context) :
     {
         val iv_living1:ImageView=itemView.findViewById(R.id.iv_living1)
 
+        val ib_
 
     }
 

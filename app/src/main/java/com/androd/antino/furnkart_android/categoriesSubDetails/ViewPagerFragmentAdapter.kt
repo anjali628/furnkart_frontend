@@ -1,10 +1,10 @@
-package com.androd.antino.furnkart_android
+package com.androd.antino.furnkart_android.categoriesSubDetails
 import android.content.Context;
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 
-class ViewPagerFragmentAdapter(private val myContext: Context, fm: FragmentManager, internal var totalTabs: Int) : FragmentPagerAdapter(fm) {
+class ViewPagerFragmentAdapter(fm: FragmentManager, internal var totalTabs: Int) : FragmentPagerAdapter(fm) {
 
     // this is for fragment tabs
     override fun getItem(position: Int): Fragment {

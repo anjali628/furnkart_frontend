@@ -1,10 +1,11 @@
-package com.androd.antino.furnkart_android
+package com.androd.antino.furnkart_android.item_details
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.androd.antino.furnkart_android.R
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER

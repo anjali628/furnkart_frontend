@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Furnkart_frontend">
         <activity
-            android:name=".CategoriesSubDetails2Activity"
+            android:name=".categoriesSubDetails.CategoriesSubDetails2Activity"
             android:exported="false" />
         <activity
-            android:name=".SignUpActivity"
+            android:name=".signup.SignUpActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
@@ -21,15 +21,15 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".login.LoginActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ForgotPasswordActivity"
+            android:name=".forgotPassword.ForgotPasswordActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CategoriesActivity"
+            android:name=".categories.CategoriesActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
