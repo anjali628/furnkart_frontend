@@ -11,7 +11,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.androd.antino.furnkart_android.model.SlipCoversModel
 
 class SlipCoversFragmentAdapter(var context: Context) :
-    RecyclerView.Adapter<androidx.recyclerview.widget.RecyclerView.ViewHolder>() {
+        RecyclerView.Adapter<SlipCoversFragmentAdapter.SlipCoverViewHolder>()
+{
+
 
     var dataList = emptyList<SlipCoversModel>()
 
@@ -19,32 +21,26 @@ class SlipCoversFragmentAdapter(var context: Context) :
         this.dataList = dataList
     }
 
-    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        var iv_living1: ImageView = itemView.findViewById(R.id.iv_living1)
-        var tv_rate: TextView = itemView.findViewById(R.id.tv_rate)
-        var ib_fav: ImageButton = itemView.findViewById(R.id.ib_fav)
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SlipCoverViewHolder {
+        return SlipCoverViewHolder(LayoutInflater.from(parent.context)
+            .inflate(R.layout.categories_sub_details2_each_item,parent,false))
 
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-
-
-        var view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.categories_sub_details2_each_item, parent, false)
-        return ViewHolder(view)
+    override fun onBindViewHolder(holder: SlipCoverViewHolder, position: Int) {
+        holder.iv_living1
     }
 
+    override fun getItemCount(): Int {
+        return dataList.size
+    }
 
-    override fun getItemCount() = dataList.size
-
-    override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
-
-        var data = dataList[position]
-
-        //holder.
+    class SlipCoverViewHolder(itemView:View):RecyclerView.ViewHolder(itemView)
+    {
+        val iv_living1:ImageView=itemView.findViewById(R.id.iv_living1)
 
 
     }
+
 
 }
-
