@@ -38,7 +38,6 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="10dp"
 
-
                 android:orientation="vertical">
 
                 <TextView
@@ -58,7 +57,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/avenir_std"
                     android:paddingTop="5dp"
-                    android:text="1500 items"
+                    android:text="@string/no._of_items"
 
                     android:textColor="#66000000"
                     android:textSize="14sp">
@@ -94,7 +93,6 @@
         android:layout_below="@id/rl1_accent">
 
     </View>
-
 
 
 </RelativeLayout>

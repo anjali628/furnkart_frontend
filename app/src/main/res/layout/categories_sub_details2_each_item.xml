@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/view_each_item">
+
+    </View>
+
 
 
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="21dp"
-            >
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="0dp"
+            android:layout_below="@id/view_each_item"
 
+
+            >
 
             <ImageView
                 android:id="@+id/iv_living1"
-                android:layout_width="174dp"
-                android:layout_height="274dp"
+                android:layout_width="160dp"
+                android:layout_height="260dp"
                 android:background="@drawable/categories_bg"
                 android:backgroundTint="#e4e4de"
                 android:padding="30dp"
@@ -51,7 +62,7 @@
 
         </RelativeLayout>
 
-
 </RelativeLayout>
+
 
 
