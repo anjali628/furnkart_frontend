@@ -32,9 +32,17 @@
     <string name="cobb">Cobbs convertible</string>
     <string name="dollar">$1,650</string>
     <string name="with_open">With open end, Farsta dark brown</string>
-    <string name="perfect">Perfect for unexpected overnight guests, or just a handy spot for a nap, futons are a great option for adding a touch of seating that can easily be...</string>
+    <string name="perfect">Perfect for unexpected overnight guests, or just a handy spot for a nap, futons are a great option for adding a touch of seating that can easily be transformed into sleeping space whenever needed. This futon is a great option for creating a spot to snooze in mid-century-inspired style.</string>
     <string name="add_to_cart">Add to cart</string>
     <string name="no._of_items">1500 items</string>
+    <string name="select_upho">Select Upholstery Color:</string>
+    <string name="select_quan">Select Quantity</string>
+    <string name="about_this_product">About this product</string>
+    <string name="key_features">Key features</string>
+    <string name="environment">Environment &amp; materials</string>
+    <string name="good_to_know">Good to know</string>
+    <string name="assembly">Assembly instructions/documents</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
