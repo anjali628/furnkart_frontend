@@ -8,9 +8,11 @@ object RetrofitBuilder {
 
     private val retrofit by lazy {
             Retrofit.Builder()
-                .baseUrl(ApiInterface.BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create())
-                .build()
+                .run {
+                    baseUrl(ApiInterface.BASE_URL)
+                    addConverterFactory(GsonConverterFactory.create())
+                    build()
+                }
         }
 
 

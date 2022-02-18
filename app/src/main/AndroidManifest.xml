@@ -29,7 +29,7 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".categoriesSubDetails.CategoriesSubDetails2Activity"
+            android:name=".ItemForcus"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
@@ -41,7 +41,7 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ItemForcus"
+            android:name=".categoriesSubDetails.CategoriesSubDetails2Activity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
