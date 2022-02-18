@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "893793094450",
+    "project_id": "furnkart-app",
+    "storage_bucket": "furnkart-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893793094450:android:4832dbd5962e3bf298e52b",
+        "android_client_info": {
+          "package_name": "com.androd.antino.furnkart_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893793094450-qu4aiffbqd3qn6s538uks74gneuiabuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-OR1MDYYuOfzl5H9Po4dFkAYeMF0pAyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893793094450-qu4aiffbqd3qn6s538uks74gneuiabuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
