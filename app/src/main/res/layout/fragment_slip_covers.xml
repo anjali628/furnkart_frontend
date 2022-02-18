@@ -3,17 +3,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".categoriesSubDetails.SlipCovers">
 
-    <androidx.recyclerview.widget.RecyclerView
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/rv_slipcovers"
-        android:padding="10dp"
-        tools:listitem="@layout/categories_sub_details2_each_item"
         >
 
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_slipcovers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:listitem="@layout/categories_sub_details2_each_item">
+
+
     </androidx.recyclerview.widget.RecyclerView>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="135dp"
+        android:layout_height="5dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@drawable/line"
+        android:layout_marginBottom="8dp"
+
+        />
+    </FrameLayout>
+
+
+
 
 
 </RelativeLayout>

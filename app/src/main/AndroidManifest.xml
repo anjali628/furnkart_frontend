@@ -13,18 +13,15 @@
             android:name=".ItemDeatailsActivity"
             android:exported="false" />
         <activity
-            android:name=".categoriesSubDetails.CategoriesSubDetails2Activity"
+            android:name=".categories.CategoriesActivity"
             android:exported="false" />
-        <activity
-            android:name=".signup.SignUpActivity"
-            android:exported="false"
-            android:screenOrientation="portrait" />
         <activity
             android:name=".Home_option1"
             android:exported="false"
             android:screenOrientation="portrait" />
+
         <activity
-            android:name=".login.LoginActivity"
+            android:name=".MainActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
@@ -32,11 +29,15 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".categories.CategoriesActivity"
+            android:name=".categoriesSubDetails.CategoriesSubDetails2Activity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name=".login.LoginActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signup.SignUpActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
